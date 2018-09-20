@@ -1,0 +1,14 @@
+<root>
+	<host>
+		<server name='Telenor'>int-telenor-01</server>
+		<username name='Telenor'>brukernavnTele</username>
+		<password name='Telenor'>pass0rdTele</password>
+	</host>
+	<host>
+		<server name='Oslo'>int-Oslo-01</server>
+		<username name='Oslo'>brukernavnOslo</username>
+		<password name='Oslo'>pass0rdOslo</password>
+	</host>
+</root>
+	
+	

@@ -1,0 +1,99 @@
+2018-09-20 14:44:13|   0.2|  0.2|INFORM|FME 2019.0.0.0 Beta (20180827 - Build 19099 - WIN64)
+2018-09-20 14:44:13|   0.2|  0.0|INFORM|FME_HOME is 'C:\apps\FME2019.0_b19099_64b\'
+2018-09-20 14:44:13|   0.2|  0.0|INFORM|FME Desktop ESRI Edition (floating)
+2018-09-20 14:44:13|   0.2|  0.0|INFORM|Permanent License.
+2018-09-20 14:44:13|   0.2|  0.0|INFORM|Machine host name is: pc-5371
+2018-09-20 14:44:13|   0.2|  0.0|INFORM|START - ProcessID: 31992, peak process memory usage: 39072 kB, current process memory usage: 39072 kB
+2018-09-20 14:44:13|   0.2|  0.0|INFORM|FME Configuration: Command line arguments are `C:\apps\FME2019.0_b19099_64b\fme.exe' `C:/Users/paalp/Documents/GitHub/FME_Dagen_2018/ScriptedPythonParameter/Telenor\wb-xlate-1537447452743_12020' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{51767ad5-125f-4d18-8b49-8df405c66aea}'
+2018-09-20 14:44:13|   0.2|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\paalp\AppData\Roaming\Safe Software\FME\'
+2018-09-20 14:44:14|   0.4|  0.2|INFORM|Shared folders for formats are : C:\apps\FME2019.0_b19099_64b\datasources;C:\Users\paalp\Documents\FME\Formats
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|Shared folders for transformers are : C:\apps\FME2019.0_b19099_64b\transformers;C:\Users\paalp\Documents\FME\Transformers;C:\Users\paalp\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\paalp\Documents\FME\CoordinateSystems
+2018-09-20 14:44:14|   0.4|  0.0|WARN  |Failed to free sufficient memory to reach the process usage limit
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\paalp\Documents\FME\CoordinateSystemExceptions
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\paalp\Documents\FME\CoordinateSystemGridOverrides
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\paalp\Documents\FME\CsmapTransformationExceptions
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\paalp\Documents\FME\TransformerCategories
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: Writer type is `NULL'
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\ScriptedPythonParameter\Telenor'
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\paalp\AppData\Local\Temp', set from environment variable `TEMP'
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: FME_HOME is `C:\apps\FME2019.0_b19099_64b\'
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\ScriptedPythonParameter\Telenor/'
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'ScriptedPythonParameter.fmw'
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2019.0.0.0'
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|System Status: 263.90 GB of disk space available in the FME temporary folder (C:\Users\paalp\AppData\Local\Temp)
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|System Status: 128.00 TB of virtual memory available
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 17134)
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Platform: WIN64
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|Locale: nb_NO
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: Process limit is 15.86 GB of physical memory
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 40.79 MB of virtual memory
+2018-09-20 14:44:14|   0.4|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 39.16 MB of virtual memory
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|Creating writer for format: NULL (Nothing)
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|Loaded module 'NULL' from file 'C:\apps\FME2019.0_b19099_64b\plugins/NULL.dll'
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20180604)
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|Creating reader for format: 
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20180604)
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20180604)
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\apps\FME2019.0_b19099_64b\plugins/Geometry_func.dll'
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (3.8 20180604)
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\apps\FME2019.0_b19099_64b\plugins/LogCount_func.dll'
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20180604)
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|Loaded module 'InspectorFactory' from file 'C:\apps\FME2019.0_b19099_64b\plugins/InspectorFactory.dll'
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20180604)
+2018-09-20 14:44:14|   0.5|  0.0|INFORM|Emptying factory pipeline
+2018-09-20 14:44:14|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache-ScriptedPythonParameter-U12020\Main_Creator -1 2 fo 0 CREATED  0  7e2fcec0715bdd0a0e885b2630b3d573f15735f9.ffsupdating'
+2018-09-20 14:44:14|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache-ScriptedPythonParameter-U12020\Main_ParameterFetcher -1 3 fo 0 OUTPUT  0  b0cfcc65e124cf555e6c8b12b86c154c1c336224.ffsupdating'
+2018-09-20 14:44:14|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-inspectors-D12020\inspector.ffs'
+2018-09-20 14:44:14|   0.6|  0.0|STATS |Creator_XML_Creator(CreationFactory): Created 1 features
+2018-09-20 14:44:14|   0.6|  0.0|STATS |Creator_Cloner(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-09-20 14:44:14|   0.6|  0.0|STATS |Creator_CREATED Feature Counter -1 4(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-09-20 14:44:14|   0.6|  0.0|STATS |Creator_CREATED Brancher -1 4(BranchingFactory): Branched 1 input feature -- 1 feature routed to the target factory, and 0 features routed to the fallback factory.
+2018-09-20 14:44:14|   0.6|  0.0|STATS |_CREATOR_BRANCH_TARGET(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-09-20 14:44:14|   0.6|  0.0|STATS |ParameterFetcher(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-09-20 14:44:14|   0.6|  0.0|STATS |ParameterFetcher_OUTPUT Feature Counter -1 6(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-09-20 14:44:14|   0.6|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache-ScriptedPythonParameter-U12020\Main_Creator -1 2 fo 0 CREATED  0  7e2fcec0715bdd0a0e885b2630b3d573f15735f9.ffsupdating'
+2018-09-20 14:44:14|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache-ScriptedPythonParameter-U12020\Main_Creator -1 2 fo 0 CREATED  0  7e2fcec0715bdd0a0e885b2630b3d573f15735f9.fsi'
+2018-09-20 14:44:14|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache-ScriptedPythonParameter-U12020\Main_Creator -1 2 fo 0 CREATED  0  7e2fcec0715bdd0a0e885b2630b3d573f15735f9.fsi'
+2018-09-20 14:44:14|   0.6|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-inspectors-D12020\inspector.ffs'
+2018-09-20 14:44:14|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-inspectors-D12020\inspector.fsi'
+2018-09-20 14:44:14|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-inspectors-D12020\inspector.fsi'
+2018-09-20 14:44:14|   0.6|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache-ScriptedPythonParameter-U12020\Main_ParameterFetcher -1 3 fo 0 OUTPUT  0  b0cfcc65e124cf555e6c8b12b86c154c1c336224.ffsupdating'
+2018-09-20 14:44:14|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache-ScriptedPythonParameter-U12020\Main_ParameterFetcher -1 3 fo 0 OUTPUT  0  b0cfcc65e124cf555e6c8b12b86c154c1c336224.fsi'
+2018-09-20 14:44:14|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache-ScriptedPythonParameter-U12020\Main_ParameterFetcher -1 3 fo 0 OUTPUT  0  b0cfcc65e124cf555e6c8b12b86c154c1c336224.fsi'
+2018-09-20 14:44:14|   0.6|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2018-09-20 14:44:14|   0.6|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-09-20 14:44:14|   0.6|  0.0|STATS |VisualizerProcessor(CreationFactory): Created 1 features
+2018-09-20 14:44:14|   0.6|  0.0|STATS |VisualizerCleaner(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2018-09-20 14:44:14|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-09-20 14:44:14|   0.6|  0.0|STATS |                            Features Read Summary
+2018-09-20 14:44:14|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-09-20 14:44:14|   0.6|  0.0|STATS |==============================================================================
+2018-09-20 14:44:14|   0.6|  0.0|STATS |Total Features Read                                                          0
+2018-09-20 14:44:14|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-09-20 14:44:14|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-09-20 14:44:14|   0.6|  0.0|STATS |                           Features Written Summary
+2018-09-20 14:44:14|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-09-20 14:44:14|   0.6|  0.0|STATS |==============================================================================
+2018-09-20 14:44:14|   0.6|  0.0|STATS |Total Features Written                                                       0
+2018-09-20 14:44:14|   0.6|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-09-20 14:44:14|   0.6|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2018-09-20 14:44:14|   0.6|  0.0|WARN  |-~                                                                             ~-
+2018-09-20 14:44:14|   0.6|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2018-09-20 14:44:14|   0.6|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2018-09-20 14:44:14|   0.6|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2018-09-20 14:44:14|   0.6|  0.0|WARN  |-~                                                                             ~-
+2018-09-20 14:44:14|   0.6|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2018-09-20 14:44:14|   0.6|  0.0|INFORM|Translation was SUCCESSFUL with 8 warning(s) (0 feature(s) output)
+2018-09-20 14:44:14|   0.6|  0.0|INFORM|FME Session Duration: 1.1 seconds. (CPU: 0.2s user, 0.3s system)
+2018-09-20 14:44:14|   0.6|  0.0|INFORM|END - ProcessID: 31992, peak process memory usage: 49724 kB, current process memory usage: 49724 kB

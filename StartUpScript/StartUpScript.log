@@ -1,0 +1,41 @@
+2018-09-20 13:57:49|   0.0|  0.0|INFORM|FME 2019.0.0.0 Beta (20180827 - Build 19099 - WIN64)
+2018-09-20 13:57:49|   0.0|  0.0|INFORM|FME_HOME is 'C:\apps\FME2019.0_b19099_64b\'
+2018-09-20 13:57:49|   0.0|  0.0|INFORM|FME Desktop ESRI Edition (floating)
+2018-09-20 13:57:49|   0.0|  0.0|INFORM|Permanent License.
+2018-09-20 13:57:49|   0.0|  0.0|INFORM|Machine host name is: pc-5371
+2018-09-20 13:57:49|   0.0|  0.0|INFORM|START - ProcessID: 32520, peak process memory usage: 29400 kB, current process memory usage: 29400 kB
+2018-09-20 13:57:49|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\apps\FME2019.0_b19099_64b\fme.exe' `C:/Users/paalp/Documents/GitHub/FME_Dagen_2018/StartUpScript\wb-xlate-153744466991_36804' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{db310b46-0257-4506-8157-b6d31210c536}'
+2018-09-20 13:57:49|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\paalp\AppData\Roaming\Safe Software\FME\'
+2018-09-20 13:57:50|   0.1|  0.1|INFORM|Using Python interpreter from `C:\apps\FME2019.0_b19099_64b\fmepython36\python36.dll' with PYTHONHOME `C:\apps\FME2019.0_b19099_64b\fmepython36'
+2018-09-20 13:57:50|   0.1|  0.0|INFORM|Python version 3.6 loaded successfully
+2018-09-20 13:57:50|   0.2|  0.1|INFORM|FME_BEGIN_PYTHON: evaluating python script from string...
+2018-09-20 13:57:50|   0.2|  0.0|ERROR |file don't exists: C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\StartUpScript\StartUpScript_config.xml
+2018-09-20 13:57:50|   0.5|  0.3|WARN  |Failed to free sufficient memory to reach the process usage limit
+2018-09-20 13:57:50|   0.5|  0.0|ERROR |Python Exception <FileNotFoundError>: Missing file: C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\StartUpScript\StartUpScript_config.xml
+2018-09-20 13:57:50|   0.5|  0.0|ERROR |Error executing string `import fmeobjects
+import os
+
+INFO = fmeobjects.FME_INFORM # 0
+WARN = fmeobjects.FME_WARN # 1
+ERROR = fmeobjects.FME_ERROR # 2
+
+logger = fmeobjects.FMELogFile()
+
+CURRENT_PATH = FME_MacroValues['FME_MF_DIR_DOS']
+FILENAME = FME_MacroValues['FME_MF_NAME']
+
+CONFIGFILE = f'{FILENAME}_config.xml'.replace('.fmw','')
+
+if os.path.isfile(CONFIGFILE):
+    logger.logMessageString('Configfile ok', INFO)
+    
+else:
+    logger.logMessageString(f'file don\'t exists: {os.path.join(CURRENT_PATH, CONFIGFILE)}', ERROR)
+    raise FileNotFoundError(f'Missing file: {os.path.join(CURRENT_PATH, CONFIGFILE)}')
+    #open(os.path.join(CURRENT_PATH, CONFIGFILE))
+        
+
+'
+2018-09-20 13:57:50|   0.5|  0.0|ERROR |FME_BEGIN_PYTHON failed to execute provided script
+2018-09-20 13:57:50|   0.5|  0.0|INFORM|FME Session Duration: 0.8 seconds. (CPU: 0.2s user, 0.3s system)
+2018-09-20 13:57:50|   0.5|  0.0|INFORM|END - ProcessID: 32520, peak process memory usage: 50984 kB, current process memory usage: 50984 kB
