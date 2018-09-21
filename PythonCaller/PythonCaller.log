@@ -1,192 +1,114 @@
-2018-09-20 22:26:52|   0.0|  0.0|INFORM|FME 2019.0.0.0 Beta (20180827 - Build 19099 - WIN64)
-2018-09-20 22:26:52|   0.0|  0.0|INFORM|FME_HOME is 'C:\apps\FME2019.0_b19099_64b\'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Desktop ESRI Edition (floating)
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|Permanent License.
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|Machine host name is: pc-5371
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|START - ProcessID: 8092, peak process memory usage: 28748 kB, current process memory usage: 28632 kB
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `C:\apps\FME2019.0_b19099_64b\fme.exe' `C:/Users/paalp/Documents/GitHub/FME_Dagen_2018/FME_Dagen_2018/PythonCaller\wb-xlate-153747521019_2556' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{abd56709-0f7d-4488-ad90-db63064cdd67}'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\paalp\AppData\Roaming\Safe Software\FME\'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|Shared folders for formats are : C:\apps\FME2019.0_b19099_64b\datasources;C:\Users\paalp\Documents\FME\Formats
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|Shared folders for transformers are : C:\apps\FME2019.0_b19099_64b\transformers;C:\Users\paalp\Documents\FME\Transformers;C:\Users\paalp\AppData\Roaming\Safe Software\FME\FME Store\Transformers
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\paalp\Documents\FME\CoordinateSystems
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\paalp\Documents\FME\CoordinateSystemExceptions
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\paalp\Documents\FME\CoordinateSystemGridOverrides
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\paalp\Documents\FME\CsmapTransformationExceptions
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\paalp\Documents\FME\TransformerCategories
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\FME_Dagen_2018\PythonCaller'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\paalp\AppData\Local\Temp', set from environment variable `TEMP'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `C:\apps\FME2019.0_b19099_64b\'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\FME_Dagen_2018\PythonCaller/'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'PythonCaller.fmw'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2019.0.0.0'
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|System Status: 268.03 GB of disk space available in the FME temporary folder (C:\Users\paalp\AppData\Local\Temp)
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|System Status: 128.00 TB of virtual memory available
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 17134)
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Platform: WIN64
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|Locale: nb_NO
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: Process limit is 15.86 GB of physical memory
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 47.57 GB of virtual memory
-2018-09-20 22:26:52|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 35.68 GB of virtual memory
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|Creating writer for format: 
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|Creating reader for format: 
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\apps\FME2019.0_b19099_64b\plugins/Geometry_func.dll'
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (3.8 20180604)
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\apps\FME2019.0_b19099_64b\plugins/LogCount_func.dll'
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20180604)
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|Loaded module 'PythonFactory' from file 'C:\apps\FME2019.0_b19099_64b\plugins/PythonFactory.dll'
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20180604)
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|Using Python interpreter from `C:\apps\FME2019.0_b19099_64b\fmepython36\python36.dll' with PYTHONHOME `C:\apps\FME2019.0_b19099_64b\fmepython36'
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|Python version 3.6 loaded successfully
-2018-09-20 22:26:52|   0.2|  0.0|INFORM|Adding folder `C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\FME_Dagen_2018\PythonCaller\' to the python path
-2018-09-20 22:26:52|   0.3|  0.0|INFORM|Emptying factory pipeline
-2018-09-20 22:26:52|   0.3|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Creator -1 2 fo 0 CREATED  0  7040d2eb0f8ebdb38858a1487eff7817b03b350b.ffsupdating'
-2018-09-20 22:26:52|   0.3|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator_4 -1 33 fo 0 OUTPUT  0  acdc3c9ca53c31e2dbe9cf03faacf37f7879226f.ffsupdating'
-2018-09-20 22:26:52|   0.3|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler -1 3 fo 1 NOT_SAMPLED  0  87f6ceeb8cf4716c00f27a9c40f0acb5805495ce.ffsupdating'
-2018-09-20 22:26:52|   0.3|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler_2 -1 4 fo 1 NOT_SAMPLED  0  ebb063f21e913c967868dc7b96969c7f78b76423.ffsupdating'
-2018-09-20 22:26:52|   0.4|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator -1 7 fo 0 OUTPUT  0  bb7c5c10fc9ffe2abdc7a7478ac4c8c504369bcc.ffsupdating'
-2018-09-20 22:26:52|   0.4|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Junction -1 13 fo 0 Output  0  6ad68bb5e991baa8d9e744e28545d9afcef1d456.ffsupdating'
-2018-09-20 22:26:52|   0.4|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler_2 -1 4 fo 0 SAMPLED  0  3a318a45cd808b1fb604f1daaa295f326a1e36bb.ffsupdating'
-2018-09-20 22:26:52|   0.4|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator_2 -1 9 fo 0 OUTPUT  0  8899da231c36825010cb0b7706d924141a82c85f.ffsupdating'
-2018-09-20 22:26:52|   0.4|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler -1 3 fo 0 SAMPLED  0  1c2dbd6413915446f5de9681c6c81ec24450e5d9.ffsupdating'
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator_3 -1 10 fo 0 OUTPUT  0  92267c3d31231a720df5a0cb67383e1b016e32ce.ffsupdating'
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Creator_XML_Creator(CreationFactory): Created 1 features
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Creator_Cloner(TeeFactory): Cloned 1 input feature(s) into 99 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Creator_CREATED Feature Counter -1 39(TeeFactory): Cloned 99 input feature(s) into 99 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Creator_CREATED Brancher -1 39(BranchingFactory): Branched 99 input features -- 99 features routed to the target factory, and 0 features routed to the fallback factory.
-2018-09-20 22:26:52|   0.5|  0.0|STATS |_CREATOR_BRANCH_TARGET(TeeFactory): Cloned 99 input feature(s) into 99 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |AttributeCreator_4_OUTPUT Feature Counter -1 40(TeeFactory): Cloned 99 input feature(s) into 99 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Sampler(SamplingFactory): Sampled 33 of 99 feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Sampler_Sampled(TeeFactory): Cloned 33 input feature(s) into 33 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Sampler_SAMPLED Feature Counter -1 11(TeeFactory): Cloned 33 input feature(s) into 33 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Sampler_NOT_SAMPLED Feature Counter -1 5(TeeFactory): Cloned 66 input feature(s) into 66 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Sampler_2(SamplingFactory): Sampled 33 of 66 feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Sampler_2_Sampled(TeeFactory): Cloned 33 input feature(s) into 33 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Sampler_2_SAMPLED Feature Counter -1 12(TeeFactory): Cloned 33 input feature(s) into 33 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Sampler_2_NOT_SAMPLED Feature Counter -1 8(TeeFactory): Cloned 33 input feature(s) into 33 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |AttributeCreator_OUTPUT Feature Counter -1 15(TeeFactory): Cloned 33 input feature(s) into 33 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |AttributeCreator_2_OUTPUT Feature Counter -1 14(TeeFactory): Cloned 33 input feature(s) into 33 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |AttributeCreator_3_OUTPUT Feature Counter -1 16(TeeFactory): Cloned 33 input feature(s) into 33 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Junction(TeeFactory): Cloned 99 input feature(s) into 99 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Junction_Output Feature Counter -1 18(TeeFactory): Cloned 99 input feature(s) into 99 output feature(s)
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_PythonCaller -1 17 fo 0 OUTPUT  1  749968f7bd892fee0f2513746c0d4f6231eef1ee.ffsupdating'
-2018-09-20 22:26:52|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter -1 21 fo 1 _lt_UNFILTERED_gt_  0  c6469d26244c0af02281362ea75793caaf2efc10.ffsupdating'
-2018-09-20 22:26:53|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeRemover -1 31 fo 0 OUTPUT  0  77771e26570070855cb9aa66c9dd6d499c36720b.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.1|INFORM|Creating writer for format: SQLite Non-Spatial
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `SQLITE3'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Loaded module 'SQLITE3' from file 'C:\apps\FME2019.0_b19099_64b\plugins/FME_SQLITE3.dll'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|FME API version of module 'SQLITE3' matches current internal version (3.8 20180604)
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|FME Configuration: No destination coordinate system set
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|FME API version of module 'SQLITE3' matches current internal version (3.8 20180604)
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Writer `SQLITE3_1' of type `SQLITE3' using group definition keyword `SQLITE3_1_DEF'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|FME API version of module 'SQLITE3' matches current internal version (3.8 20180604)
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|SQLite 3 Writer: Opening `C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\FME_Dagen_2018\PythonCaller\table.db' for write operation
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|SQLITE3 writer: Building feature table
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter -1 21 fo 2 soda_table  0  6d70e54d14516964cd643866b84a0d50251be4d0.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeRemover_2 -1 42 fo 0 OUTPUT  0  65dcb72bec18a38dcc7292305c7323adccf7736b.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|SQLITE3 writer: Building feature table
-2018-09-20 22:26:53|   0.6|  0.0|STATS |PythonCaller_OUTPUT Feature Counter -1 22(TeeFactory): Cloned 102 input feature(s) into 102 output feature(s)
-2018-09-20 22:26:53|   0.6|  0.0|STATS |FeatureTypeFilter(TestFactory): Tested 102 input feature(s) -- 3 feature(s) passed and 99 feature(s) failed
-2018-09-20 22:26:53|   0.6|  0.0|STATS |FeatureTypeFilter_BlankFilter(TestFactory): Tested 99 input feature(s) -- 0 feature(s) passed and 99 feature(s) failed
-2018-09-20 22:26:53|   0.6|  0.0|STATS |FeatureTypeFilter_<BLANK> Feature Counter -1 34(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2018-09-20 22:26:53|   0.6|  0.0|STATS |FeatureTypeFilter_<UNFILTERED> Feature Counter -1 32(TeeFactory): Cloned 99 input feature(s) into 99 output feature(s)
-2018-09-20 22:26:53|   0.6|  0.0|STATS |FeatureTypeFilter_soda_table Feature Counter -1 43(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
-2018-09-20 22:26:53|   0.6|  0.0|STATS |AttributeRemover_2(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
-2018-09-20 22:26:53|   0.6|  0.0|STATS |AttributeRemover_2_OUTPUT Feature Counter -1 44(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
-2018-09-20 22:26:53|   0.6|  0.0|STATS |AttributeRemover(TeeFactory): Cloned 99 input feature(s) into 99 output feature(s)
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 99 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Creator -1 2 fo 0 CREATED  0  7040d2eb0f8ebdb38858a1487eff7817b03b350b.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Creator -1 2 fo 0 CREATED  0  7040d2eb0f8ebdb38858a1487eff7817b03b350b.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Creator -1 2 fo 0 CREATED  0  7040d2eb0f8ebdb38858a1487eff7817b03b350b.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 33 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler_2 -1 4 fo 0 SAMPLED  0  3a318a45cd808b1fb604f1daaa295f326a1e36bb.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler_2 -1 4 fo 0 SAMPLED  0  3a318a45cd808b1fb604f1daaa295f326a1e36bb.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler_2 -1 4 fo 0 SAMPLED  0  3a318a45cd808b1fb604f1daaa295f326a1e36bb.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 66 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler -1 3 fo 1 NOT_SAMPLED  0  87f6ceeb8cf4716c00f27a9c40f0acb5805495ce.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler -1 3 fo 1 NOT_SAMPLED  0  87f6ceeb8cf4716c00f27a9c40f0acb5805495ce.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler -1 3 fo 1 NOT_SAMPLED  0  87f6ceeb8cf4716c00f27a9c40f0acb5805495ce.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 99 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator_4 -1 33 fo 0 OUTPUT  0  acdc3c9ca53c31e2dbe9cf03faacf37f7879226f.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator_4 -1 33 fo 0 OUTPUT  0  acdc3c9ca53c31e2dbe9cf03faacf37f7879226f.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator_4 -1 33 fo 0 OUTPUT  0  acdc3c9ca53c31e2dbe9cf03faacf37f7879226f.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 33 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler_2 -1 4 fo 1 NOT_SAMPLED  0  ebb063f21e913c967868dc7b96969c7f78b76423.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler_2 -1 4 fo 1 NOT_SAMPLED  0  ebb063f21e913c967868dc7b96969c7f78b76423.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler_2 -1 4 fo 1 NOT_SAMPLED  0  ebb063f21e913c967868dc7b96969c7f78b76423.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 33 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler -1 3 fo 0 SAMPLED  0  1c2dbd6413915446f5de9681c6c81ec24450e5d9.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler -1 3 fo 0 SAMPLED  0  1c2dbd6413915446f5de9681c6c81ec24450e5d9.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Sampler -1 3 fo 0 SAMPLED  0  1c2dbd6413915446f5de9681c6c81ec24450e5d9.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 33 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator_2 -1 9 fo 0 OUTPUT  0  8899da231c36825010cb0b7706d924141a82c85f.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator_2 -1 9 fo 0 OUTPUT  0  8899da231c36825010cb0b7706d924141a82c85f.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator_2 -1 9 fo 0 OUTPUT  0  8899da231c36825010cb0b7706d924141a82c85f.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 33 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator -1 7 fo 0 OUTPUT  0  bb7c5c10fc9ffe2abdc7a7478ac4c8c504369bcc.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator -1 7 fo 0 OUTPUT  0  bb7c5c10fc9ffe2abdc7a7478ac4c8c504369bcc.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator -1 7 fo 0 OUTPUT  0  bb7c5c10fc9ffe2abdc7a7478ac4c8c504369bcc.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 99 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Junction -1 13 fo 0 Output  0  6ad68bb5e991baa8d9e744e28545d9afcef1d456.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Junction -1 13 fo 0 Output  0  6ad68bb5e991baa8d9e744e28545d9afcef1d456.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Junction -1 13 fo 0 Output  0  6ad68bb5e991baa8d9e744e28545d9afcef1d456.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 3 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter -1 21 fo 2 soda_table  0  6d70e54d14516964cd643866b84a0d50251be4d0.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter -1 21 fo 2 soda_table  0  6d70e54d14516964cd643866b84a0d50251be4d0.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter -1 21 fo 2 soda_table  0  6d70e54d14516964cd643866b84a0d50251be4d0.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 33 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator_3 -1 10 fo 0 OUTPUT  0  92267c3d31231a720df5a0cb67383e1b016e32ce.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator_3 -1 10 fo 0 OUTPUT  0  92267c3d31231a720df5a0cb67383e1b016e32ce.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeCreator_3 -1 10 fo 0 OUTPUT  0  92267c3d31231a720df5a0cb67383e1b016e32ce.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 102 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_PythonCaller -1 17 fo 0 OUTPUT  1  749968f7bd892fee0f2513746c0d4f6231eef1ee.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_PythonCaller -1 17 fo 0 OUTPUT  1  749968f7bd892fee0f2513746c0d4f6231eef1ee.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_PythonCaller -1 17 fo 0 OUTPUT  1  749968f7bd892fee0f2513746c0d4f6231eef1ee.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 99 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter -1 21 fo 1 _lt_UNFILTERED_gt_  0  c6469d26244c0af02281362ea75793caaf2efc10.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter -1 21 fo 1 _lt_UNFILTERED_gt_  0  c6469d26244c0af02281362ea75793caaf2efc10.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter -1 21 fo 1 _lt_UNFILTERED_gt_  0  c6469d26244c0af02281362ea75793caaf2efc10.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 99 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeRemover -1 31 fo 0 OUTPUT  0  77771e26570070855cb9aa66c9dd6d499c36720b.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeRemover -1 31 fo 0 OUTPUT  0  77771e26570070855cb9aa66c9dd6d499c36720b.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeRemover -1 31 fo 0 OUTPUT  0  77771e26570070855cb9aa66c9dd6d499c36720b.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Stored 3 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeRemover_2 -1 42 fo 0 OUTPUT  0  65dcb72bec18a38dcc7292305c7323adccf7736b.ffsupdating'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeRemover_2 -1 42 fo 0 OUTPUT  0  65dcb72bec18a38dcc7292305c7323adccf7736b.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_AttributeRemover_2 -1 42 fo 0 OUTPUT  0  65dcb72bec18a38dcc7292305c7323adccf7736b.fsi'
-2018-09-20 22:26:53|   0.6|  0.0|STATS |AttributeRemover_OUTPUT Feature Counter -1 38(TeeFactory): Cloned 99 input feature(s) into 99 output feature(s)
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 102 input feature(s), wrote 102 output feature(s): 0 matched merge filters, 102 were routed to output, 0 could not be routed.
-2018-09-20 22:26:53|   0.6|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
-2018-09-20 22:26:53|   0.7|  0.0|INFORM|SQLite 3 Writer: Creating table 'main_data_table'
-2018-09-20 22:26:53|   0.8|  0.1|INFORM|SQLite 3 Writer: Creating table 'soda_table'
-2018-09-20 22:26:53|   0.8|  0.0|INFORM|SQLite 3 Writer: Closing `C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\FME_Dagen_2018\PythonCaller\table.db' . Write operation complete
-2018-09-20 22:26:53|   0.8|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2018-09-20 22:26:53|   0.8|  0.0|INFORM|Feature output statistics for `SQLITE3' writer using keyword `SQLITE3_1':
-2018-09-20 22:26:53|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2018-09-20 22:26:53|   0.8|  0.0|STATS |                               Features Written
-2018-09-20 22:26:53|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2018-09-20 22:26:53|   0.8|  0.0|STATS |main_data_table                                                             99
-2018-09-20 22:26:53|   0.8|  0.0|STATS |soda_table                                                                   3
-2018-09-20 22:26:53|   0.8|  0.0|STATS |==============================================================================
-2018-09-20 22:26:53|   0.8|  0.0|STATS |Total Features Written                                                     102
-2018-09-20 22:26:53|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2018-09-20 22:26:53|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2018-09-20 22:26:53|   0.8|  0.0|STATS |                            Features Read Summary
-2018-09-20 22:26:53|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2018-09-20 22:26:53|   0.8|  0.0|STATS |==============================================================================
-2018-09-20 22:26:53|   0.8|  0.0|STATS |Total Features Read                                                          0
-2018-09-20 22:26:53|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2018-09-20 22:26:53|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2018-09-20 22:26:53|   0.8|  0.0|STATS |                           Features Written Summary
-2018-09-20 22:26:53|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2018-09-20 22:26:53|   0.8|  0.0|STATS |main_data_table                                                             99
-2018-09-20 22:26:53|   0.8|  0.0|STATS |soda_table                                                                   3
-2018-09-20 22:26:53|   0.8|  0.0|STATS |==============================================================================
-2018-09-20 22:26:53|   0.8|  0.0|STATS |Total Features Written                                                     102
-2018-09-20 22:26:53|   0.8|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-2018-09-20 22:26:53|   0.8|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2018-09-20 22:26:53|   0.8|  0.0|WARN  |-~                                                                             ~-
-2018-09-20 22:26:53|   0.8|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
-2018-09-20 22:26:53|   0.8|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
-2018-09-20 22:26:53|   0.8|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
-2018-09-20 22:26:53|   0.8|  0.0|WARN  |-~                                                                             ~-
-2018-09-20 22:26:53|   0.8|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
-2018-09-20 22:26:53|   0.8|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (102 feature(s) output)
-2018-09-20 22:26:53|   0.8|  0.0|INFORM|FME Session Duration: 1.6 seconds. (CPU: 0.5s user, 0.3s system)
-2018-09-20 22:26:53|   0.8|  0.0|INFORM|END - ProcessID: 8092, peak process memory usage: 73072 kB, current process memory usage: 52084 kB
+2018-09-21 08:05:04|   0.1|  0.1|INFORM|FME 2019.0.0.0 Beta (20180827 - Build 19099 - WIN64)
+2018-09-21 08:05:04|   0.1|  0.0|INFORM|FME_HOME is 'C:\apps\FME2019.0_b19099_64b\'
+2018-09-21 08:05:04|   0.1|  0.0|INFORM|FME Desktop ESRI Edition (floating)
+2018-09-21 08:05:04|   0.1|  0.0|INFORM|Permanent License.
+2018-09-21 08:05:04|   0.1|  0.0|INFORM|Machine host name is: pc-5371
+2018-09-21 08:05:04|   0.1|  0.0|INFORM|START - ProcessID: 5340, peak process memory usage: 29272 kB, current process memory usage: 29272 kB
+2018-09-21 08:05:04|   0.1|  0.0|INFORM|FME Configuration: Command line arguments are `C:\apps\FME2019.0_b19099_64b\fme.exe' `C:/Users/paalp/Documents/GitHub/FME_Dagen_2018/FME_Dagen_2018/PythonCaller\wb-xlate-153750990378_2556' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{4371ca14-cd5a-4daf-9ded-fa4ac9e1f2ae}'
+2018-09-21 08:05:04|   0.1|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\paalp\AppData\Roaming\Safe Software\FME\'
+2018-09-21 08:05:04|   0.3|  0.2|INFORM|Shared folders for formats are : C:\apps\FME2019.0_b19099_64b\datasources;C:\Users\paalp\Documents\FME\Formats
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Shared folders for transformers are : C:\apps\FME2019.0_b19099_64b\transformers;C:\Users\paalp\Documents\FME\Transformers;C:\Users\paalp\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\paalp\Documents\FME\CoordinateSystems
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\paalp\Documents\FME\CoordinateSystemExceptions
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\paalp\Documents\FME\CoordinateSystemGridOverrides
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\paalp\Documents\FME\CsmapTransformationExceptions
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\paalp\Documents\FME\TransformerCategories
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\FME_Dagen_2018\PythonCaller'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\paalp\AppData\Local\Temp', set from environment variable `TEMP'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: FME_HOME is `C:\apps\FME2019.0_b19099_64b\'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\FME_Dagen_2018\PythonCaller/'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'PythonCaller.fmw'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2019.0.0.0'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|System Status: 268.13 GB of disk space available in the FME temporary folder (C:\Users\paalp\AppData\Local\Temp)
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|System Status: 128.00 TB of virtual memory available
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 17134)
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Platform: WIN64
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Locale: nb_NO
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: Process limit is 15.86 GB of physical memory
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 47.57 GB of virtual memory
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 35.68 GB of virtual memory
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Creating writer for format: 
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Creating reader for format: 
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\apps\FME2019.0_b19099_64b\plugins/LogCount_func.dll'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20180604)
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Loaded module 'PythonFactory' from file 'C:\apps\FME2019.0_b19099_64b\plugins/PythonFactory.dll'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|FME API version of module 'PythonFactory' matches current internal version (3.8 20180604)
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Using Python interpreter from `C:\apps\FME2019.0_b19099_64b\fmepython36\python36.dll' with PYTHONHOME `C:\apps\FME2019.0_b19099_64b\fmepython36'
+2018-09-21 08:05:04|   0.3|  0.0|INFORM|Python version 3.6 loaded successfully
+2018-09-21 08:05:04|   0.4|  0.0|INFORM|Adding folder `C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\FME_Dagen_2018\PythonCaller\' to the python path
+2018-09-21 08:05:04|   0.4|  0.1|INFORM|Loaded module 'InspectorFactory' from file 'C:\apps\FME2019.0_b19099_64b\plugins/InspectorFactory.dll'
+2018-09-21 08:05:04|   0.4|  0.0|INFORM|FME API version of module 'InspectorFactory' matches current internal version (3.8 20180604)
+2018-09-21 08:05:04|   0.4|  0.0|INFORM|... Last line repeated 4 times ...
+2018-09-21 08:05:04|   0.4|  0.0|INFORM|Emptying factory pipeline
+2018-09-21 08:05:04|   0.4|  0.0|STATS |Restoring 99 feature(s) from FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Junction -1 13 fo 0 Output  0  6ad68bb5e991baa8d9e744e28545d9afcef1d456.ffs'
+2018-09-21 08:05:04|   0.5|  0.0|INFORM|Junction_Output_Player(RecorderFactory): Played back 99 feature(s) from file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_Junction -1 13 fo 0 Output  0  6ad68bb5e991baa8d9e744e28545d9afcef1d456.ffs'
+2018-09-21 08:05:04|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_PythonCaller_2 -1 45 fo 0 OUTPUT  0  0e8fd89d6e91bd4ddebf2fd8eeb9fbefc9586add.ffsupdating'
+2018-09-21 08:05:04|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 1 _lt_UNFILTERED_gt_  0  f68e871326997542aa93703b97a7d7949dad79b5.ffsupdating'
+2018-09-21 08:05:04|   0.5|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-inspectors-Dp2556\inspector.ffs'
+2018-09-21 08:05:05|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 4 ID_table  0  b290c5591c9d45a3f771a9a457b10c1e13ffa6d7.ffsupdating'
+2018-09-21 08:05:05|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 2 Soda_table  0  17c5f86925fd23781bcd558e803f515dd71414fc.ffsupdating'
+2018-09-21 08:05:05|   0.6|  0.0|STATS |Storing feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 3 Name_table  0  215687e29914e631c30598dee8b9c77f1b4685f4.ffsupdating'
+2018-09-21 08:05:05|   0.7|  0.0|STATS |PythonCaller_2_OUTPUT Feature Counter -1 48(TeeFactory): Cloned 205 input feature(s) into 205 output feature(s)
+2018-09-21 08:05:05|   0.7|  0.0|STATS |FeatureTypeFilter_2(TestFactory): Tested 205 input feature(s) -- 103 feature(s) passed and 102 feature(s) failed
+2018-09-21 08:05:05|   0.7|  0.0|STATS |FeatureTypeFilter_2_BlankFilter(TestFactory): Tested 102 input feature(s) -- 0 feature(s) passed and 102 feature(s) failed
+2018-09-21 08:05:05|   0.7|  0.0|STATS |FeatureTypeFilter_2_<BLANK> Feature Counter -1 51(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-09-21 08:05:05|   0.7|  0.0|STATS |FeatureTypeFilter_2_<UNFILTERED> Feature Counter -1 53(TeeFactory): Cloned 102 input feature(s) into 102 output feature(s)
+2018-09-21 08:05:05|   0.7|  0.0|STATS |FeatureTypeFilter_2_Soda_table Feature Counter -1 55(TeeFactory): Cloned 3 input feature(s) into 3 output feature(s)
+2018-09-21 08:05:05|   0.7|  0.0|STATS |FeatureTypeFilter_2_Name_table Feature Counter -1 57(TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2018-09-21 08:05:05|   0.7|  0.0|STATS |FeatureTypeFilter_2_ID_table Feature Counter -1 59(TeeFactory): Cloned 99 input feature(s) into 99 output feature(s)
+2018-09-21 08:05:05|   0.7|  0.0|STATS |Stored 205 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_PythonCaller_2 -1 45 fo 0 OUTPUT  0  0e8fd89d6e91bd4ddebf2fd8eeb9fbefc9586add.ffsupdating'
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_PythonCaller_2 -1 45 fo 0 OUTPUT  0  0e8fd89d6e91bd4ddebf2fd8eeb9fbefc9586add.fsi'
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_PythonCaller_2 -1 45 fo 0 OUTPUT  0  0e8fd89d6e91bd4ddebf2fd8eeb9fbefc9586add.fsi'
+2018-09-21 08:05:05|   0.7|  0.0|STATS |Stored 102 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 1 _lt_UNFILTERED_gt_  0  f68e871326997542aa93703b97a7d7949dad79b5.ffsupdating'
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 1 _lt_UNFILTERED_gt_  0  f68e871326997542aa93703b97a7d7949dad79b5.fsi'
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 1 _lt_UNFILTERED_gt_  0  f68e871326997542aa93703b97a7d7949dad79b5.fsi'
+2018-09-21 08:05:05|   0.7|  0.0|STATS |Stored 99 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 4 ID_table  0  b290c5591c9d45a3f771a9a457b10c1e13ffa6d7.ffsupdating'
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 4 ID_table  0  b290c5591c9d45a3f771a9a457b10c1e13ffa6d7.fsi'
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 4 ID_table  0  b290c5591c9d45a3f771a9a457b10c1e13ffa6d7.fsi'
+2018-09-21 08:05:05|   0.7|  0.0|STATS |Stored 205 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-inspectors-Dp2556\inspector.ffs'
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-inspectors-Dp2556\inspector.fsi'
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-inspectors-Dp2556\inspector.fsi'
+2018-09-21 08:05:05|   0.7|  0.0|STATS |Stored 1 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 3 Name_table  0  215687e29914e631c30598dee8b9c77f1b4685f4.ffsupdating'
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 3 Name_table  0  215687e29914e631c30598dee8b9c77f1b4685f4.fsi'
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 3 Name_table  0  215687e29914e631c30598dee8b9c77f1b4685f4.fsi'
+2018-09-21 08:05:05|   0.7|  0.0|STATS |Stored 3 feature(s) to FME feature store file `C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 2 Soda_table  0  17c5f86925fd23781bcd558e803f515dd71414fc.ffsupdating'
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|Saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 2 Soda_table  0  17c5f86925fd23781bcd558e803f515dd71414fc.fsi'
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|Finished saving spatial index into file 'C:\Users\paalp\AppData\Local\Temp\wb-cache--Wm2556\Main_FeatureTypeFilter_2 -1 49 fo 2 Soda_table  0  17c5f86925fd23781bcd558e803f515dd71414fc.fsi'
+2018-09-21 08:05:05|   0.7|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2018-09-21 08:05:05|   0.7|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-09-21 08:05:05|   0.7|  0.0|STATS |VisualizerProcessor(CreationFactory): Created 1 features
+2018-09-21 08:05:05|   0.7|  0.0|STATS |VisualizerCleaner(TeeFactory): Cloned 1 input feature(s) into 0 output feature(s)
+2018-09-21 08:05:05|   0.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-09-21 08:05:05|   0.7|  0.0|STATS |                            Features Read Summary
+2018-09-21 08:05:05|   0.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-09-21 08:05:05|   0.7|  0.0|STATS |==============================================================================
+2018-09-21 08:05:05|   0.7|  0.0|STATS |Total Features Read                                                          0
+2018-09-21 08:05:05|   0.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-09-21 08:05:05|   0.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-09-21 08:05:05|   0.7|  0.0|STATS |                           Features Written Summary
+2018-09-21 08:05:05|   0.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-09-21 08:05:05|   0.7|  0.0|STATS |==============================================================================
+2018-09-21 08:05:05|   0.7|  0.0|STATS |Total Features Written                                                       0
+2018-09-21 08:05:05|   0.7|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-09-21 08:05:05|   0.7|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2018-09-21 08:05:05|   0.7|  0.0|WARN  |-~                                                                             ~-
+2018-09-21 08:05:05|   0.7|  0.0|WARN  |-~    Feature caches have been recorded at every stage of the translation.     ~-
+2018-09-21 08:05:05|   0.7|  0.0|WARN  |-~                      To inspect the recorded features,                      ~-
+2018-09-21 08:05:05|   0.7|  0.0|WARN  |-~              click the feature cache icons next to the ports.               ~-
+2018-09-21 08:05:05|   0.7|  0.0|WARN  |-~                                                                             ~-
+2018-09-21 08:05:05|   0.7|  0.0|WARN  |-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-~-
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|Translation was SUCCESSFUL with 7 warning(s) (0 feature(s) output)
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|FME Session Duration: 1.4 seconds. (CPU: 0.3s user, 0.3s system)
+2018-09-21 08:05:05|   0.7|  0.0|INFORM|END - ProcessID: 5340, peak process memory usage: 50704 kB, current process memory usage: 48140 kB
