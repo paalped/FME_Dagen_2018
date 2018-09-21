@@ -1,0 +1,150 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command-line to run this workspace:
+#        C:\apps\FME2019.0_b19099_64b\fme.exe C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\FME_Dagen_2018\ShutDownScript\shutdown_script.fmw
+#    
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="430 71"
+#!   DOC_TOP_LEFT="293.753 -402.253"
+#!   END_PYTHON="import&lt;space&gt;os&lt;lf&gt;&lt;lf&gt;&lt;lf&gt;CURRENT_PATH&lt;space&gt;=&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_DIR_DOS&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;some_deleted&lt;space&gt;=&lt;space&gt;False&lt;lf&gt;deleted_files&lt;space&gt;=&lt;space&gt;&lt;openbracket&gt;&lt;closebracket&gt;&lt;lf&gt;try:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;for&lt;space&gt;_file&lt;space&gt;in&lt;space&gt;os.listdir&lt;openparen&gt;CURRENT_PATH&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;&lt;apos&gt;_pytmp_&lt;apos&gt;&lt;space&gt;in&lt;space&gt;_file:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;abs_path&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;CURRENT_PATH&lt;comma&gt;&lt;space&gt;_file&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;os.remove&lt;openparen&gt;abs_path&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;deleted_files.append&lt;openparen&gt;_file&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;some_deleted&lt;space&gt;=&lt;space&gt;True&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;deleted_files&lt;space&gt;=&lt;space&gt;&lt;apos&gt;&lt;backslash&gt;n&lt;apos&gt;.join&lt;openparen&gt;deleted_files&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;if&lt;space&gt;some_deleted:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;print&lt;openparen&gt;f&lt;apos&gt;Following&lt;space&gt;files&lt;space&gt;has&lt;space&gt;been&lt;space&gt;cleaned:&lt;space&gt;&lt;opencurly&gt;deleted_files&lt;closecurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;0&lt;closeparen&gt;&lt;lf&gt;except&lt;space&gt;Exception&lt;space&gt;as&lt;space&gt;e:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;print&lt;openparen&gt;f&lt;apos&gt;&lt;opencurly&gt;str&lt;openparen&gt;e&lt;closeparen&gt;&lt;closecurly&gt;&lt;apos&gt;&lt;comma&gt;2&lt;closeparen&gt;"
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="19099"
+#!   FME_DOCUMENT_GUID="f054896d-3d2f-4a55-89af-a06d8011d72b"
+#!   FME_DOCUMENT_PRIORGUID=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2019.0.0.0 (20180827 - Build 19099 - WIN64)"
+#!   LAST_SAVE_DATE="2018-09-22T01:39:01"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="36"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="NO"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="0 0"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="100"
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="PythonCreator"
+#!   VERSION="3"
+#!   POSITION="293.75293752937523 -331.25331253312515"
+#!   BOUNDING_RECT="293.75293752937523 -331.25331253312515 430 71"
+#!   ORDER="500000000000001"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="19099"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PYTHONSOURCE_NEW" PARM_VALUE="&lt;lf&gt;import&lt;space&gt;os&lt;lf&gt;&lt;lf&gt;class&lt;space&gt;Pass&lt;openparen&gt;object&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;__init__&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;input&lt;openparen&gt;self&lt;comma&gt;&lt;space&gt;feature&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;def&lt;space&gt;close&lt;openparen&gt;self&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;pass&lt;lf&gt;current_path&lt;space&gt;=&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_DIR_DOS&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;tmpfile&lt;space&gt;=&lt;space&gt;open&lt;openparen&gt;&lt;apos&gt;_pytmp_sdg&lt;apos&gt;&lt;comma&gt;&lt;space&gt;&lt;apos&gt;w&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;tmpfile.write&lt;openparen&gt;&lt;apos&gt;Hello&lt;space&gt;World&lt;backslash&gt;n&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;tmpfile.close&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PYTHONSYMBOL" PARM_VALUE="Pass"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="PythonCreator"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 36
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
+#! END_WB_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)shutdown_script.log"
+LOG_APPEND NO
+LOG_FILTER_MASK -1
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+FME_END_PYTHON_ENC import<space>os<lf><lf><lf>CURRENT_PATH<space>=<space>FME_MacroValues<openbracket><apos>FME_MF_DIR_DOS<apos><closebracket><lf><lf>some_deleted<space>=<space>False<lf>deleted_files<space>=<space><openbracket><closebracket><lf>try:<lf><space><space><space><space>for<space>_file<space>in<space>os.listdir<openparen>CURRENT_PATH<closeparen>:<lf><space><space><space><space><space><space><space><space>if<space><apos>_pytmp_<apos><space>in<space>_file:<lf><space><space><space><space><space><space><space><space><space><space><space><space>abs_path<space>=<space>os.path.join<openparen>CURRENT_PATH<comma><space>_file<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>os.remove<openparen>abs_path<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>deleted_files.append<openparen>_file<closeparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>some_deleted<space>=<space>True<lf><space><space><space><space>deleted_files<space>=<space><apos><backslash>n<apos>.join<openparen>deleted_files<closeparen><lf><space><space><space><space>if<space>some_deleted:<lf><space><space><space><space><space><space><space><space>print<openparen>f<apos>Following<space>files<space>has<space>been<space>cleaned:<space><opencurly>deleted_files<closecurly><apos><comma><space>0<closeparen><lf>except<space>Exception<space>as<space>e:<lf><space><space><space><space>print<openparen>f<apos><opencurly>str<openparen>e<closeparen><closecurly><apos><comma>2<closeparen>
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME shutdown_script
+MACRO FME_VIEWER_APP fmedatainspector
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+FME_PYTHON_PATH "$(FME_MF_DIR)"
+FACTORY_DEF * CreationFactory    FACTORY_NAME PythonCreator_Creator    OUTPUT FEATURE_TYPE _____CREATED_PYTHON__
+FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCreator    INPUT FEATURE_TYPE _____CREATED_PYTHON__    SYMBOL_NAME Pass    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE <lf>import<space>os<lf><lf>class<space>Pass<openparen>object<closeparen>:<lf><space><space><space><space>def<space>__init__<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass<lf><space><space><space><space>def<space>input<openparen>self<comma><space>feature<closeparen>:<lf><space><space><space><space><space><space><space><space>pass<lf><space><space><space><space>def<space>close<openparen>self<closeparen>:<lf><space><space><space><space><space><space><space><space>pass<lf>current_path<space>=<space>FME_MacroValues<openbracket><apos>FME_MF_DIR_DOS<apos><closebracket><lf>tmpfile<space>=<space>open<openparen><apos>_pytmp_sdg<apos><comma><space><apos>w<apos><closeparen><lf>tmpfile.write<openparen><apos>Hello<space>World<backslash>n<apos><closeparen><lf>tmpfile.close<openparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCreator_OUTPUT        @SupplyAttributes(?,fme_feature_type,PythonCreator)
+FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCreator OUTPUT Transformer Output Nuker"   INPUT FEATURE_TYPE PythonCreator_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
