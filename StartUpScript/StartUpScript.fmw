@@ -1,10 +1,10 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        C:\apps\FME2019.0_b19099_64b\fme.exe C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\FME_Dagen_2018\StartUpScript\StartUpScript.fmw
+#        C:\apps\FME2018.1_b18474_64\fme.exe C:\Users\paalp\Documents\GitHub\FME_Dagen_2018\FME_Dagen_2018\StartUpScript\StartUpScript.fmw
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
-#!   BEGIN_PYTHON="import&lt;space&gt;fmeobjects&lt;lf&gt;import&lt;space&gt;os&lt;lf&gt;&lt;lf&gt;INFO&lt;space&gt;=&lt;space&gt;fmeobjects.FME_INFORM&lt;space&gt;#&lt;space&gt;0&lt;lf&gt;WARN&lt;space&gt;=&lt;space&gt;fmeobjects.FME_WARN&lt;space&gt;#&lt;space&gt;1&lt;lf&gt;ERROR&lt;space&gt;=&lt;space&gt;fmeobjects.FME_ERROR&lt;space&gt;#&lt;space&gt;2&lt;lf&gt;&lt;lf&gt;logger&lt;space&gt;=&lt;space&gt;fmeobjects.FMELogFile&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;CURRENT_PATH&lt;space&gt;=&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_DIR_DOS&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;FILENAME&lt;space&gt;=&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_NAME&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;CONFIGFILE&lt;space&gt;=&lt;space&gt;f&lt;apos&gt;&lt;opencurly&gt;FILENAME&lt;closecurly&gt;_config.xml&lt;apos&gt;.replace&lt;openparen&gt;&lt;apos&gt;.fmw&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;if&lt;space&gt;os.path.isfile&lt;openparen&gt;CONFIGFILE&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;logger.logMessageString&lt;openparen&gt;&lt;apos&gt;Configfile&lt;space&gt;ok&lt;apos&gt;&lt;comma&gt;&lt;space&gt;INFO&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;abs_path&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;CURRENT_PATH&lt;comma&gt;&lt;space&gt;CONFIGFILE&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;logger.logMessageString&lt;openparen&gt;f&lt;apos&gt;Missing&lt;space&gt;file:&lt;space&gt;&lt;opencurly&gt;abs_path&lt;closecurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;ERROR&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;#raise&lt;space&gt;FileNotFoundError&lt;openparen&gt;f&lt;apos&gt;Missing&lt;space&gt;file:&lt;space&gt;&lt;opencurly&gt;abs_path&lt;closecurly&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;lf&gt;"
+#!   BEGIN_PYTHON="import&lt;space&gt;fmeobjects&lt;lf&gt;import&lt;space&gt;os&lt;lf&gt;&lt;lf&gt;INFO&lt;space&gt;=&lt;space&gt;fmeobjects.FME_INFORM&lt;space&gt;#&lt;space&gt;0&lt;lf&gt;WARN&lt;space&gt;=&lt;space&gt;fmeobjects.FME_WARN&lt;space&gt;#&lt;space&gt;1&lt;lf&gt;ERROR&lt;space&gt;=&lt;space&gt;fmeobjects.FME_ERROR&lt;space&gt;#&lt;space&gt;2&lt;lf&gt;&lt;lf&gt;logger&lt;space&gt;=&lt;space&gt;fmeobjects.FMELogFile&lt;openparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;CURRENT_PATH&lt;space&gt;=&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_DIR_DOS&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;WORKSPACE_NAME&lt;space&gt;=&lt;space&gt;FME_MacroValues&lt;openbracket&gt;&lt;apos&gt;FME_MF_NAME&lt;apos&gt;&lt;closebracket&gt;&lt;lf&gt;&lt;lf&gt;CONFIGFILE&lt;space&gt;=&lt;space&gt;f&lt;apos&gt;&lt;opencurly&gt;WORKSPACE_NAME&lt;closecurly&gt;_config.xml&lt;apos&gt;.replace&lt;openparen&gt;&lt;apos&gt;.fmw&lt;apos&gt;&lt;comma&gt;&lt;apos&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;if&lt;space&gt;os.path.isfile&lt;openparen&gt;CONFIGFILE&lt;closeparen&gt;:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;logger.logMessageString&lt;openparen&gt;&lt;apos&gt;Configfile&lt;space&gt;ok&lt;apos&gt;&lt;comma&gt;&lt;space&gt;INFO&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;else:&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;abs_path&lt;space&gt;=&lt;space&gt;os.path.join&lt;openparen&gt;CURRENT_PATH&lt;comma&gt;&lt;space&gt;CONFIGFILE&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;logger.logMessageString&lt;openparen&gt;f&lt;apos&gt;Missing&lt;space&gt;file:&lt;space&gt;&lt;opencurly&gt;abs_path&lt;closecurly&gt;&lt;apos&gt;&lt;comma&gt;&lt;space&gt;ERROR&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;raise&lt;space&gt;FileNotFoundError&lt;openparen&gt;f&lt;apos&gt;Missing&lt;space&gt;file:&lt;space&gt;&lt;opencurly&gt;abs_path&lt;closecurly&gt;&lt;apos&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;lf&gt;&lt;lf&gt;"
 #!   BEGIN_TCL=""
 #!   CATEGORY=""
 #!   DESCRIPTION=""
@@ -15,9 +15,9 @@
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="19099"
-#!   FME_DOCUMENT_GUID="d6c09232-3cc9-46b1-91cf-e251642f4e04"
-#!   FME_DOCUMENT_PRIORGUID="a3380dcf-e776-43b2-af97-f10665c48cc3,cbe0e97b-4a27-41e3-8338-88ad1d82e43c"
+#!   FME_BUILD_NUM="18474"
+#!   FME_DOCUMENT_GUID="89660f10-5b9d-4513-808a-2624f4a8a2a5"
+#!   FME_DOCUMENT_PRIORGUID="a3380dcf-e776-43b2-af97-f10665c48cc3,cbe0e97b-4a27-41e3-8338-88ad1d82e43c,d6c09232-3cc9-46b1-91cf-e251642f4e04"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -25,8 +25,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2019.0.0.0 (20180827 - Build 19099 - WIN64)"
-#!   LAST_SAVE_DATE="2018-09-23T15:01:25"
+#!   LAST_SAVE_BUILD="FME(R) 2018.1.0.0 (20180510 - Build 18474 - WIN64)"
+#!   LAST_SAVE_DATE="2018-09-25T09:30:27"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -36,7 +36,6 @@
 #!   PASSWORD=""
 #!   PYTHON_COMPATIBILITY="36"
 #!   REDIRECT_TERMINATORS="NONE"
-#!   SAVE_ON_PROMPT_AND_RUN="Yes"
 #!   SHOW_ANNOTATIONS="true"
 #!   SHOW_INFO_NODES="true"
 #!   SOURCE="NONE"
@@ -45,7 +44,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-131.946 69.4451"
+#!   VIEW_POSITION="-131.946 65.9729"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="90"
@@ -135,17 +134,17 @@ NULL_DEST_DATASET null
 
 LOG_FILENAME "$(FME_MF_DIR)StartUpScript.log"
 LOG_APPEND NO
-LOG_FILTER_MASK -1
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
 FME_REPROJECTION_ENGINE FME
 FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
 # -------------------------------------------------------------------------
 
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
-FME_BEGIN_PYTHON_ENC import<space>fmeobjects<lf>import<space>os<lf><lf>INFO<space>=<space>fmeobjects.FME_INFORM<space>#<space>0<lf>WARN<space>=<space>fmeobjects.FME_WARN<space>#<space>1<lf>ERROR<space>=<space>fmeobjects.FME_ERROR<space>#<space>2<lf><lf>logger<space>=<space>fmeobjects.FMELogFile<openparen><closeparen><lf><lf>CURRENT_PATH<space>=<space>FME_MacroValues<openbracket><apos>FME_MF_DIR_DOS<apos><closebracket><lf>FILENAME<space>=<space>FME_MacroValues<openbracket><apos>FME_MF_NAME<apos><closebracket><lf><lf>CONFIGFILE<space>=<space>f<apos><opencurly>FILENAME<closecurly>_config.xml<apos>.replace<openparen><apos>.fmw<apos><comma><apos><apos><closeparen><lf><lf>if<space>os.path.isfile<openparen>CONFIGFILE<closeparen>:<lf><space><space><space><space>logger.logMessageString<openparen><apos>Configfile<space>ok<apos><comma><space>INFO<closeparen><lf><space><space><space><space><lf>else:<lf><space><space><space><space>abs_path<space>=<space>os.path.join<openparen>CURRENT_PATH<comma><space>CONFIGFILE<closeparen><lf><space><space><space><space>logger.logMessageString<openparen>f<apos>Missing<space>file:<space><opencurly>abs_path<closecurly><apos><comma><space>ERROR<closeparen><lf><space><space><space><space>#raise<space>FileNotFoundError<openparen>f<apos>Missing<space>file:<space><opencurly>abs_path<closecurly><apos><closeparen><lf><lf><space><space><space><space><space><space><space><space><lf><lf>
+FME_BEGIN_PYTHON_ENC import<space>fmeobjects<lf>import<space>os<lf><lf>INFO<space>=<space>fmeobjects.FME_INFORM<space>#<space>0<lf>WARN<space>=<space>fmeobjects.FME_WARN<space>#<space>1<lf>ERROR<space>=<space>fmeobjects.FME_ERROR<space>#<space>2<lf><lf>logger<space>=<space>fmeobjects.FMELogFile<openparen><closeparen><lf><lf>CURRENT_PATH<space>=<space>FME_MacroValues<openbracket><apos>FME_MF_DIR_DOS<apos><closebracket><lf>WORKSPACE_NAME<space>=<space>FME_MacroValues<openbracket><apos>FME_MF_NAME<apos><closebracket><lf><lf>CONFIGFILE<space>=<space>f<apos><opencurly>WORKSPACE_NAME<closecurly>_config.xml<apos>.replace<openparen><apos>.fmw<apos><comma><apos><apos><closeparen><lf><lf>if<space>os.path.isfile<openparen>CONFIGFILE<closeparen>:<lf><space><space><space><space>logger.logMessageString<openparen><apos>Configfile<space>ok<apos><comma><space>INFO<closeparen><lf><space><space><space><space><lf>else:<lf><space><space><space><space>abs_path<space>=<space>os.path.join<openparen>CURRENT_PATH<comma><space>CONFIGFILE<closeparen><lf><space><space><space><space>logger.logMessageString<openparen>f<apos>Missing<space>file:<space><opencurly>abs_path<closecurly><apos><comma><space>ERROR<closeparen><lf><space><space><space><space>raise<space>FileNotFoundError<openparen>f<apos>Missing<space>file:<space><opencurly>abs_path<closecurly><apos><closeparen><lf><lf><space><space><space><space><space><space><space><space><lf><lf>
 
 # -------------------------------------------------------------------------
 
